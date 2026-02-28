@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3537BD1F2F52BF2C00E29E6A /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 3537BD1E2F52BF2C00E29E6A /* AWSS3 */; };
-		3537BD212F52BF2C00E29E6A /* AWSTranscribe in Frameworks */ = {isa = PBXBuildFile; productRef = 3537BD202F52BF2C00E29E6A /* AWSTranscribe */; };
-		3537BD232F52BF2C00E29E6A /* AWSTranscribeStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = 3537BD222F52BF2C00E29E6A /* AWSTranscribeStreaming */; };
+		35DD0D352F52E2DD000425F7 /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 35DD0D342F52E2DD000425F7 /* AWSS3 */; };
+		35DD0D372F52E2DD000425F7 /* AWSTranscribe in Frameworks */ = {isa = PBXBuildFile; productRef = 35DD0D362F52E2DD000425F7 /* AWSTranscribe */; };
+		35DD0D392F52E2DD000425F7 /* AWSTranscribeStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = 35DD0D382F52E2DD000425F7 /* AWSTranscribeStreaming */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3537BD1F2F52BF2C00E29E6A /* AWSS3 in Frameworks */,
-				3537BD232F52BF2C00E29E6A /* AWSTranscribeStreaming in Frameworks */,
-				3537BD212F52BF2C00E29E6A /* AWSTranscribe in Frameworks */,
+				35DD0D352F52E2DD000425F7 /* AWSS3 in Frameworks */,
+				35DD0D392F52E2DD000425F7 /* AWSTranscribeStreaming in Frameworks */,
+				35DD0D372F52E2DD000425F7 /* AWSTranscribe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +74,9 @@
 			);
 			name = TranscribeIosDemo;
 			packageProductDependencies = (
-				3537BD1E2F52BF2C00E29E6A /* AWSS3 */,
-				3537BD202F52BF2C00E29E6A /* AWSTranscribe */,
-				3537BD222F52BF2C00E29E6A /* AWSTranscribeStreaming */,
+				35DD0D342F52E2DD000425F7 /* AWSS3 */,
+				35DD0D362F52E2DD000425F7 /* AWSTranscribe */,
+				35DD0D382F52E2DD000425F7 /* AWSTranscribeStreaming */,
 			);
 			productName = TranscribeIosDemo;
 			productReference = 3537BCE52F52BC8800E29E6A /* TranscribeIosDemo.app */;
@@ -107,7 +107,7 @@
 			mainGroup = 3537BCDC2F52BC8800E29E6A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3537BD1D2F52BF2C00E29E6A /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+				35DD0D332F52E2DD000425F7 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3537BCE62F52BC8800E29E6A /* Products */;
@@ -384,30 +384,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3537BD1D2F52BF2C00E29E6A /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+		35DD0D332F52E2DD000425F7 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/awslabs/aws-sdk-swift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
+				minimumVersion = 1.6.65;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3537BD1E2F52BF2C00E29E6A /* AWSS3 */ = {
+		35DD0D342F52E2DD000425F7 /* AWSS3 */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3537BD1D2F52BF2C00E29E6A /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			package = 35DD0D332F52E2DD000425F7 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
 			productName = AWSS3;
 		};
-		3537BD202F52BF2C00E29E6A /* AWSTranscribe */ = {
+		35DD0D362F52E2DD000425F7 /* AWSTranscribe */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3537BD1D2F52BF2C00E29E6A /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			package = 35DD0D332F52E2DD000425F7 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
 			productName = AWSTranscribe;
 		};
-		3537BD222F52BF2C00E29E6A /* AWSTranscribeStreaming */ = {
+		35DD0D382F52E2DD000425F7 /* AWSTranscribeStreaming */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3537BD1D2F52BF2C00E29E6A /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			package = 35DD0D332F52E2DD000425F7 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
 			productName = AWSTranscribeStreaming;
 		};
 /* End XCSwiftPackageProductDependency section */
