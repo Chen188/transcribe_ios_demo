@@ -1,4 +1,4 @@
-# TranscribeIosDemo
+# Transcribe iOS Demo
 
 一个基于 SwiftUI 的 iOS 示例应用，展示如何集成 AWS Transcribe 实现语音转文字功能。支持**实时转录**和**批量离线转录**两种模式。
 
