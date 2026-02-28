@@ -29,9 +29,13 @@
 
 ### AWS 服务依赖
 
+本项目通过 Swift Package Manager 引用 [aws-sdk-swift](https://github.com/awslabs/aws-sdk-swift.git)（≥ 1.2.0），使用以下模块：
+
 - **AWSTranscribeStreaming** — 实时流式转录
 - **AWSTranscribe** — 批量转录任务管理
 - **AWSS3** — 音频文件上传与结果下载
+
+> 首次打开项目时 Xcode 会自动 resolve 依赖。如果依赖显示红叉，可通过菜单 **File → Packages → Resolve Package Versions** 重新加载，或使用 **Reset Package Caches** 清除缓存后重试。
 
 ## 项目结构
 
